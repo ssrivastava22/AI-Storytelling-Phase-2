@@ -1,0 +1,169 @@
+
+MYSTERY GAME: The Harper Museum Murder
+Type actions like: go shed, search vial, take ledger, talk linda, destroy key
+Parser: LLM-enabled (gpt-4o-mini) with rule fallback.
+Type 'debug' to see Drama Manager logs. Type 'quit' to exit.
+
+📍 Botanical Garden
+You stand in the museum's botanical garden, where Evelyn Harper was poisoned. Rare toxic plants line the paths.
+Items here: footprint, crumpled paper
+Exits: shed, hall
+
+
+> 
+📍 Garden Shed
+A cramped shed filled with gardening tools, soil bags, and locked cabinets.
+Items here: vial, business card
+Exits: garden
+
+
+> You collect the vial.
+
+> You collect the business card.
+
+Story Progress: You find a vial and Thomas's torn business card, linking him to the poison.
+
+> 
+📍 Botanical Garden
+You stand in the museum's botanical garden, where Evelyn Harper was poisoned. Rare toxic plants line the paths.
+Items here: footprint, crumpled paper
+Exits: shed, hall
+
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+Items here: burnt memo
+People here: linda, gregory
+Exits: garden, office, thomas, coast
+
+
+Story Progress: You overhear Linda and Gregory whispering about Thomas's wrath.
+
+> Linda avoids your questions at first, but her jealousy of Evelyn becomes obvious.
+
+Story Progress: Linda reveals resentment toward Evelyn's success.
+
+> 
+📍 Office
+Evelyn Harper's office. Financial records, drawers, and filing cabinets fill the room.
+Items here: ledger, drawer documents
+Exits: hall
+
+
+> You collect the ledger.
+
+Story Progress: The ledger shows suspicious withdrawals near the failed charity event.
+
+> A ledger showing suspicious withdrawals.
+
+Story Progress: A bank contact confirms the withdrawals were signed by Thomas.
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+Items here: burnt memo
+Exits: garden, office, thomas, coast
+
+
+> 
+📍 Thomas Office
+Thomas Blake's office. It is neat, expensive, and suspiciously controlled.
+Items here: key
+People here: thomas
+Exits: hall
+
+
+Story Progress: Thomas gives an alibi, but a timestamped email contradicts him.
+
+> Thomas insists he was at dinner, but his timeline does not quite hold.
+
+
+> You collect the key.
+
+Story Progress: You find a key that may open the locked drawer in Evelyn's office.
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+Items here: burnt memo
+Exits: garden, office, thomas, coast
+
+
+> 
+📍 Office
+Evelyn Harper's office. Financial records, drawers, and filing cabinets fill the room.
+Items here: drawer documents
+Exits: hall
+
+
+> You unlock the drawer and find documents revealing unauthorized funds tied to Thomas.
+
+Story Progress: The drawer reveals unauthorized funds tied to Thomas.
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+Items here: burnt memo
+Exits: garden, office, thomas, coast
+
+
+> 
+📍 Coast
+A secluded coastal overlook where secret meetings can happen away from the museum.
+People here: linda, gregory
+Exits: hall
+
+
+Story Progress: You follow Gregory and overhear him meeting Linda about the embezzlement.
+
+> Gregory stays calm, but his answers are too polished. Something feels rehearsed.
+
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+Items here: burnt memo
+Exits: garden, office, thomas, coast
+
+
+> You collect the burnt memo.
+
+Story Progress: The burnt memo proves the plan included eliminating witnesses.
+
+> 
+📍 Coast
+A secluded coastal overlook where secret meetings can happen away from the museum.
+People here: linda
+Exits: hall
+
+
+> 
+📍 Museum Hall
+The central hall of Harper & Sons Museum. Displays cast long shadows across the marble floor.
+People here: gregory, thomas
+Exits: garden, office, thomas, coast
+
+
+FINAL REVEAL:
+You have enough evidence to accuse Thomas Blake. The poison, financial records, contradicted alibi, unauthorized funds, and final memo reveal the truth: Thomas murdered Evelyn Harper to protect his ambitions, with Gregory helping cover the tracks.
+
+> Thomas insists he was at dinner, but his timeline does not quite hold.
+
+FINAL REVEAL:
+You have enough evidence to accuse Thomas Blake. The poison, financial records, contradicted alibi, unauthorized funds, and final memo reveal the truth: Thomas murdered Evelyn Harper to protect his ambitions, with Gregory helping cover the tracks.
+
+> 
+DEBUG / TRACE LOG
+- Story Progressed: Beat 6 completed - Follow Gregory
+- NPC Interaction: talked to gregory
+- World State Updated: player moved to museum hall
+- World State Updated: player collected burnt memo
+- Story Progressed: Beat 12 completed - Find final memo
+- World State Updated: player moved to coast
+- World Event: Final confrontation triggered in museum hall
+- World State Updated: player moved to museum hall
+- Story Progressed: Beat 13 completed - Final accusation
+- NPC Interaction: talked to thomas
+
+> Exiting game.
